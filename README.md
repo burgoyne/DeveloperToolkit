@@ -48,10 +48,6 @@ The tools in this catalog are free to use under the repository license. I also p
 
 More information is available at [andreburgoyne.com](https://andreburgoyne.com).
 
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for notes on catalog updates, examples, corrections, and documentation improvements.
-
 ## Security
 
 See [SECURITY.md](SECURITY.md) for security reporting guidance.
