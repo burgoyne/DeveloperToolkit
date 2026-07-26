@@ -1,4 +1,4 @@
-# Engineering Toolkit
+# Developer Toolkit
 
 This toolkit is where I collect the smaller utilities, templates, and workflows I build. Some projects will be GitHub Actions, some will be command-line tools or scripts, and some will be reusable patterns for CI/CD, documentation, release automation, infrastructure, and overall workflow automation.
 
@@ -44,9 +44,9 @@ These projects are planned unless their status says otherwise.
 
 ## Consulting
 
-The tools in this catalog are free to use under the repository license. I also provide consulting for teams that need help combining these tools, adapting them to their environment, or building custom workflows around CI/CD, release automation, documentation, cloud infrastructure, security scanning, and developer automation.
+The tools in this catalog are free to use under the repository license. I also provide consulting for teams that need help combining these tools, adapting them to their environment, or building custom workflows around CI/CD, release automation, documentation, cloud infrastructure, and developer automation.
 
-More information is available at [andreburgoyne.com](https://andreburgoyne.com).
+More information is available at [andreburgoyne.com](https://www.andreburgoyne.com).
 
 ## Security
 
