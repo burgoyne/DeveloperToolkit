@@ -38,6 +38,8 @@ These projects are planned unless their status says otherwise.
 | Pull Requests Since Last Release | Automation Utility | Collects GitHub pull requests merged since the last release. | CLI and GitHub Action | Planned |
 | Release Notes Generator | Documentation Tooling | Generates structured release notes from commits and pull requests. | CLI and GitHub Action | Planned |
 | Documentation Publisher | Documentation Tooling | Packages and publishes generated documentation without depending on a specific documentation framework. | CLI and GitHub Action | Planned |
+| [New Confluence Page](scripts/Confluence/NewPage/README.md) | Documentation Tooling | Creates a new Confluence Cloud page from a local storage markup file and moves it beneath an existing folder. | PowerShell script | [Available](scripts/Confluence/NewPage/NewConfluencePage.ps1) |
+| [Append Confluence Page](scripts/Confluence/AppendPage/README.md) | Documentation Tooling | Adds local storage markup to an existing Confluence Cloud page as a new page version. | PowerShell script | [Available](scripts/Confluence/AppendPage/AppendConfluencePage.ps1) |
 | Deployment Summary | Automation Utility | Produces a structured summary of a deployment, including version, environment, artifacts, status, and related metadata. | CLI and GitHub Action | Planned |
 | Security Scan Results | Automation Utility | Runs Semgrep and Trivy scans against the codebase and writes the results to an output folder. | CLI and GitHub Action | Planned |
 
