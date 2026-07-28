@@ -36,7 +36,7 @@ These projects are planned unless their status says otherwise.
 | --- | --- | --- | --- | --- |
 | Changed Projects | Automation Utility | Detects which applications, services, or repository areas were affected by a change. | CLI and GitHub Action | Planned |
 | Pull Requests Since Last Release | Automation Utility | Collects GitHub pull requests merged since the last release. | CLI and GitHub Action | Planned |
-| Release Notes Generator | Documentation Tooling | Generates structured release notes from commits and pull requests. | CLI and GitHub Action | Planned |
+| [Release Notes Generator](scripts/Documentation/GenerateReleaseNotes/README.md) | Documentation Tooling | Generates structured release note data from GitHub commits and merged pull requests between two refs. | PowerShell script | [Available](scripts/Documentation/GenerateReleaseNotes/GenerateReleaseNotes.ps1) |
 | Documentation Publisher | Documentation Tooling | Packages and publishes generated documentation without depending on a specific documentation framework. | CLI and GitHub Action | Planned |
 | [New Confluence Page](scripts/Confluence/NewPage/README.md) | Documentation Tooling | Creates a new Confluence Cloud page from a local storage markup file and moves it beneath an existing folder. | PowerShell script | [Available](scripts/Confluence/NewPage/NewConfluencePage.ps1) |
 | [Append Confluence Page](scripts/Confluence/AppendPage/README.md) | Documentation Tooling | Adds local storage markup to an existing Confluence Cloud page as a new page version. | PowerShell script | [Available](scripts/Confluence/AppendPage/AppendConfluencePage.ps1) |
