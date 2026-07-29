@@ -2,13 +2,11 @@
 
 This toolkit is where I collect the smaller utilities, templates, and workflows I build. Some projects will be GitHub Actions, some will be command-line tools or scripts, and some will be reusable patterns for CI/CD, documentation, release automation, infrastructure, and overall workflow automation.
 
-This repository is only the catalog and examples hub. Most tools will live in their own repositories so they can have their own versions, releases, documentation, and issue tracking.
+This repository is the catalog and examples hub. Most tools will live in their own repositories so they can have their own versions, releases, documentation, and issue tracking.
 
 ## Overview
 
 The goal is to make useful engineering automation easier to find and combine. A tool might handle one part of a larger workflow, such as detecting changed projects, generating release notes, publishing documentation, or summarizing a deployment.
-
-The individual tools should be useful on their own, but they should also work well as building blocks in a larger pipeline. This hub keeps track of what exists, what is planned, and where each project lives.
 
 ## Toolkit Categories
 
@@ -22,26 +20,22 @@ Reusable workflows and pipeline examples that connect build, test, security scan
 
 ### Documentation Tooling
 
-Tools that generate, transform, validate, package, or publish engineering documentation without assuming every team uses the same documentation stack.
+Tools that generate, transform, validate, package, or publish documentation without assuming every team uses the same documentation stack.
 
 ### Automation Utilities
 
-Small scripts, command-line tools, and GitHub Actions for repeatable engineering tasks. These should solve focused problems and produce outputs that are easy to use from other tools.
+Small scripts, command-line tools, and GitHub Actions for repeatable tasks. These should solve focused problems and produce outputs that are easy to use from other tools.
 
 ## Project Catalog
 
-These projects are planned unless their status says otherwise.
-
 | Project | Category | Description | Delivery Format | Status |
 | --- | --- | --- | --- | --- |
-| Changed Projects | Automation Utility | Detects which applications, services, or repository areas were affected by a change. | CLI and GitHub Action | Planned |
-| Pull Requests Since Last Release | Automation Utility | Collects GitHub pull requests merged since the last release. | CLI and GitHub Action | Planned |
-| [Release Notes Generator](scripts/Documentation/GenerateReleaseNotes/README.md) | Documentation Tooling | Generates structured release note data from GitHub commits and merged pull requests between two refs. | PowerShell script | [Available](scripts/Documentation/GenerateReleaseNotes/GenerateReleaseNotes.ps1) |
-| Documentation Publisher | Documentation Tooling | Packages and publishes generated documentation without depending on a specific documentation framework. | CLI and GitHub Action | Planned |
-| [New Confluence Page](scripts/Confluence/NewPage/README.md) | Documentation Tooling | Creates a new Confluence Cloud page from a local storage markup file and moves it beneath an existing folder. | PowerShell script | [Available](scripts/Confluence/NewPage/NewConfluencePage.ps1) |
-| [Append Confluence Page](scripts/Confluence/AppendPage/README.md) | Documentation Tooling | Adds local storage markup to an existing Confluence Cloud page as a new page version. | PowerShell script | [Available](scripts/Confluence/AppendPage/AppendConfluencePage.ps1) |
-| Deployment Summary | Automation Utility | Produces a structured summary of a deployment, including version, environment, artifacts, status, and related metadata. | CLI and GitHub Action | Planned |
+| [Changed Projects](https://github.com/burgoyne/FindChangedDotnetProjects) | Automation Utility | Detects .NET projects in a solution that were affected by a change. | CLI and GitHub Action | [Available](https://github.com/burgoyne/FindChangedDotnetProjects/blob/main/action.yml) |
+| [Release Branch Check](https://github.com/burgoyne/FindPreviousReleaseBranch) | Automation Utility | Finds the latest release branch with a date earlier than the current release. | CLI and GitHub Action | [Available](https://github.com/burgoyne/FindPreviousReleaseBranch/blob/main/action.yml) |
 | Security Scan Results | Automation Utility | Runs Semgrep and Trivy scans against the codebase and writes the results to an output folder. | CLI and GitHub Action | Planned |
+| [Append Confluence Page](scripts/Confluence/AppendPage/README.md) | Documentation Tooling | Adds local storage markup to an existing Confluence Cloud page as a new page version. | PowerShell script | [Available](scripts/Confluence/AppendPage/AppendConfluencePage.ps1) |
+| [New Confluence Page](scripts/Confluence/NewPage/README.md) | Documentation Tooling | Creates a new Confluence Cloud page from a local storage markup file and moves it beneath an existing folder. | PowerShell script | [Available](scripts/Confluence/NewPage/NewConfluencePage.ps1) |
+| [Release Notes Generator](scripts/Documentation/GenerateReleaseNotes/README.md) | Documentation Tooling | Generates structured release note data from GitHub commits and merged pull requests between two refs. | PowerShell script | [Available](scripts/Documentation/GenerateReleaseNotes/GenerateReleaseNotes.ps1) |
 
 
 ## Consulting
